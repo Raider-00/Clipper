@@ -1,9 +1,7 @@
-#! /home/pentester/.local/python_venv/bin/python
 import clipman,sys
 
 try:
     clipman.init()
-#    raise Exception("This is intentional")
 except:
     print("Clipman is not initialised")
     sys.exit()
